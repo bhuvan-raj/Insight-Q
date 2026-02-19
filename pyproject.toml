@@ -1,0 +1,15 @@
+[project]
+name = "insight-q"
+version = "0.1.0"
+description = "Process insights CLI"
+authors = [{name = "Bubu"}]
+dependencies = [
+    "psutil"
+]
+
+[project.scripts]
+insight-q = "insight_q.main:main"
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
