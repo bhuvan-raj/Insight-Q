@@ -1,0 +1,2 @@
+[console_scripts]
+insight-q = insight_q.main:main
