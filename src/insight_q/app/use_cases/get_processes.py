@@ -1,5 +1,6 @@
-from infrastructure.process_repository import ProcessRepository
-from domain.models.process import Process
+from insight_q.domain.models.process import Process
+from insight_q.infrastructure.process_repository import ProcessRepository
+
 
 
 class GetProcesses:

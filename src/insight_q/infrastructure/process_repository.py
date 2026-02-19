@@ -1,6 +1,7 @@
 import psutil
 from datetime import datetime
-from domain.models.process import Process
+from insight_q.domain.models.process import Process
+
 
 
 class ProcessRepository:
